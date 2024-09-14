@@ -168,4 +168,5 @@ tr:nth-child(even) {
 
 .favs {
   margin-top: -2rem;
+  min-height: 66vh;
 }

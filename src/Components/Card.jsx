@@ -13,7 +13,7 @@ const Card = ({char}) => {
   
   return (
     <div className="card" > 
-      <img src="public\images\doctor.jpg" alt="" />
+      <img src="../../public/images/doctor.jpg" alt="" />
       <Link to={'/Detail/'+ char.id}>
       <h5>
         {char.name}
