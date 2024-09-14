@@ -37,9 +37,15 @@
 
 
 .Detail-content {
+    min-height: 60vh;
+    margin-top: -2rem;
+    padding-top: 2rem;
+}
+
+.Detail-table {
     width: 100%;
     border-collapse: collapse;
-  }
+}
   
   /* Estilos adicionales según el tema (oscuro o claro) */
 

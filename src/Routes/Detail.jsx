@@ -18,8 +18,8 @@ const Detail = () => {
 
 
   return (
-    <div>
-      <table className={'Detail-content ' + (!state.theme ? "dark" : "white")}>
+    <div className={'Detail-content ' + (!state.theme ? "dark" : "white")}>
+      <table className={'Detail-table ' + (!state.theme ? "dark" : "white")}>
         <thead >
           <tr>
             <th>Nombre</th>
