@@ -4,16 +4,6 @@
         "source": "/(.*)",
         "destination": "/"
       }
-    ],
-    "builds": [
-        {
-        "src": "package.json",
-        "use": "@vercel/node"
-        }
-    ],
-    "env": {
-        "NPM_TOKEN": "@NPM_TOKEN"
-    }
-    
+    ]
   }
   
