@@ -170,3 +170,14 @@ tr:nth-child(even) {
   margin-top: -2rem;
   min-height: 66vh;
 }
+
+.App-content{
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.app {
+  min-height: 100% !important;
+}
